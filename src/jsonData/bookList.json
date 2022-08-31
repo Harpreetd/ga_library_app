@@ -1,0 +1,49 @@
+{
+  "book": [
+    {
+      "id": "01",
+      "tittle": "Harry Potter",
+      "isbn": "43876",
+      "year": "2001",
+      "edition": "second",
+
+      "studyLine": [
+        "salg og ledelse",
+        "Prosjektledelse",
+        "digital markedsforing"
+      ],
+
+      "authName": "J.K.Rowlings"
+    },
+    {
+      "id": "02",
+      "tittle": "Harry Potter",
+      "isbn": "43876",
+      "year": "2001",
+      "edition": "second",
+
+      "studyLine": [
+        "salg og ledelse",
+        "Prosjektledelse",
+        "digital markedsforing"
+      ],
+
+      "authorName": "J.K.Rowlings"
+    },
+    {
+      "id": "03",
+      "tittle": "Harry Potter",
+      "isbn": "43876",
+      "year": "2001",
+      "edition": "second",
+
+      "studyLine": [
+        "salg og ledelse",
+        "Prosjektledelse",
+        "digital markedsforing"
+      ],
+
+      "authName": "J.K.Rowlings"
+    }
+  ]
+}
