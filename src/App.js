@@ -1,10 +1,14 @@
 import "./App.css";
+import { Cards } from "./components/Cards";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Team!!</h1>
-    </div>
+    <>
+      <div className="App">
+        <h1>Gokstad Bibliotek</h1>
+        <Cards />
+      </div>
+    </>
   );
 }
 
