@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="App">
         <h1>Gokstad Bibliotek</h1>
-        <Dropdown />
+
         <Cards />
       </div>
     </>
