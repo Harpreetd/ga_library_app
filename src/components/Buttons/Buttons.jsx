@@ -1,9 +1,10 @@
 import React from "react";
+import styles from "./Buttons.module.css";
 
 const Buttons = (props) => {
   const { text, onClick } = props;
   return (
-    <button className="primary-btn btn" onClick={onClick}>
+    <button className={styles["btn-light"]} onClick={onClick}>
       {text}
     </button>
   );

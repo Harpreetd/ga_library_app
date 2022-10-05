@@ -1,0 +1,11 @@
+.btn-light {
+  width: 10rem;
+  background-color: #cfcef1;
+  border: #cfcef1;
+  padding: 0.6rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 34px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 34px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 34px -10px rgba(0, 0, 0, 0.75);
+  margin: 1rem 0;
+}
