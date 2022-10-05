@@ -9,7 +9,7 @@ export const Cards = () => {
           return (
             <div key={key} className="card-container">
               <div className="card">
-                <img src={data.image} />
+                <img src={data.image} alt="book" />
                 <h2>{data.title}</h2>
 
                 <p>{data.authorName}</p>
