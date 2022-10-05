@@ -1,5 +1,5 @@
 import React from "react";
-import booklist from "../jsonData/bookList.js";
+import booklist from "../../jsonData/bookList.js";
 
 export const Cards = () => {
   return (
