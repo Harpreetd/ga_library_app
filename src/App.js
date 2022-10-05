@@ -1,19 +1,20 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
-import Buttons from "./components/Buttons/Buttons";
-import { Cards } from "./components/Cards/Cards";
-import Dropdown from "./components/Dropdown/Dropdown";
-import SearchBar from "./components/SearchBar/SearchBar";
+import Home from "../src/pages/Home.js";
+import Admin from "../src/pages/Admin.js";
+import Book from "../src/pages/Book.js";
+import User from "../src/pages/User.js";
 
 function App() {
   return (
     <>
-      <div className="App">
-        <h1>Gokstad Bibliotek</h1>
-        <SearchBar />
-        <Buttons text="Click" />
-        <Cards />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/admin" element={<Admin />} />
+        <Route path="/book" element={<Book />} />
+        <Route path="/user" element={<User />} />
+      </Routes>
     </>
   );
 }
