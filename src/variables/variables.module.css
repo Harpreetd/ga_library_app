@@ -1,4 +1,5 @@
 /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1140,22,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+/* We can change or tweak the values with the link in the comment above */
 
 :root {
   --step--2: clamp(0.69rem, calc(0.62rem + 0.36vw), 0.88rem);
